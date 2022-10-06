@@ -1,0 +1,34 @@
+body {
+ font-size: 18px;
+ line-height: 1.6;
+ background: radial-gradient(ellipse at center, #f5f7fa 0%, #c3cfe2 100%);
+}
+html,body{
+	height: 100%;
+}
+body{
+	display: flex;
+}
+#rotatingGlobe{
+	margin: auto auto;
+}
+.glow{
+	width: 800px;
+	height: 800px;
+background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform:translate(-30%,-70%)
+}
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 480px) {
+}
+@media only screen and (max-width: 320px) {
+}
